@@ -20,13 +20,16 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: f2e2d2;
     color: white;
     padding: 16px 0px 16px 0px;
 }
-
+.nav-header {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
 .logo {
-    margin: 0.5rem;
+    margin: 0;
     font-style: italic;
     font-size: 36px;
     text-decoration: underline;
@@ -51,7 +54,8 @@ body {
     display: block;
     text-decoration: none;
     color: black;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
 }
 
 .navbar-links li:hover {

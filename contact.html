@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <a href="index.html"> <p class="logo">Coffee</p></a>
+                </div>
+
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+
+                <!-- links -->
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="tags.html">Tags</a></li>
+                        <li><a href="signature.html">Signature</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-contact">
+                    <button>
+                        <img src="pics/foodpanda.png" class="foodpanda-pic" />
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <main class="page">
+            <section class="form-section">
+                <div class="form-container">
+                    <form>
+                        <h1 class="form-h1">Contact Us</h1>
+                        <h4 class="form-h4">
+                            Have anything you wish to share?
+                        </h4>
+                        <fieldset>
+                            <label for="name"
+                                >Enter Your Name: <input required type="text"
+                            /></label>
+                            <label for="email"
+                                >Enter Your Email: <input required type="email"
+                            /></label>
+                            <label for="address">
+                                Phone Number (optional):
+                                <input type="text"
+                            /></label>
+                        </fieldset>
+                        <fieldset>
+                            <label
+                                ><input type="checkbox" class="inline" /> I have
+                                read your <a href="">privacy policy</a></label
+                            >
+                            <label
+                                ><input type="checkbox" class="inline" /> I have
+                                read your
+                                <a href="">terms and conditions</a></label
+                            >
+                        </fieldset>
+                        <fieldset>
+                            <label
+                                >Share your message here:
+                                <textarea
+                                    rows="3"
+                                    cols="30"
+                                    placeholder="What would you like to tell us?"
+                                ></textarea>
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="submit" />
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <p>Not a real website. Practicing HTML & CSS</p>
+        </footer>
+        <!-- end of footer -->
+        <script src="index.js"></script>
+    </body>
+</html>

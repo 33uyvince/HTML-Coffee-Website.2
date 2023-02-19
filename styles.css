@@ -140,15 +140,20 @@ body {
 /* end of MAIN */
 
 /* Header */
-
+.picture-coffee-section {
+    display: flex;
+    justify-content: center;
+}
 .coffee-container {
     position: relative;
+    height: 390px;
+    width: 1120px;
 }
 
 .coffee-img {
     filter: brightness(50%);
-    height: 390px;
-    width: 1120px;
+    height: 100%;
+    width: 100%;
 }
 .upper-text {
     position: absolute;
@@ -236,10 +241,13 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-
-.grid-1-right-study-coffee {
+.about-grid-1-right-pic-cont {
     width: 544px;
     height: 404px;
+}
+.grid-1-right-study-coffee {
+    width: 100%;
+    height: 100%;
 }
 
 .about-contact-btn {
@@ -301,13 +309,14 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-.signature-pic-container {
+.signature-grid-right {
     display: flex;
     justify-content: center;
 }
+
 .signature-pic {
-    height: 3 50px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
 }
 .text-container h1 {
     margin-top: 0;

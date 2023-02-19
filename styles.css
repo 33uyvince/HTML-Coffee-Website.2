@@ -2,7 +2,7 @@
     --max-width: 1120px;
 }
 body {
-    background-color: #f2e2d2;
+    background-color: #fff8f0;
     margin: 0;
 }
 /* NAVBAR */
@@ -113,6 +113,9 @@ body {
     }
     .nav-contact {
         display: none;
+    }
+    .page {
+        padding: 1rem;
     }
 }
 .nav-contact button {
